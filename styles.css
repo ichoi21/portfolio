@@ -1,0 +1,75 @@
+* body {
+  background-color: rgb(69, 78, 100);
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+}
+
+/* functions above is general and should affect all functions in HTML */
+/* header section */
+header {
+  padding: 10px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  background-color: #334155;
+  color: #ffffff;
+}
+
+header h1 {
+  text-align: center;
+  /* display: inline-block; */
+  font-size: 38px;
+  color: #808378;
+  background-color: rgb(45, 45, 61);
+}
+
+article {
+  padding: 25px;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  background-color: #6c7981;
+}
+article img {
+  /* height: auto; */
+  max-width: 100%;
+  object-fit: contain;
+}
+
+article a {
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+}
+
+.card-title {
+  font-weight: bold;
+  color: rgb(72, 72, 88);
+  text-shadow: coral;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+footer {
+  padding: 10px;
+  clear: both;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.modal-content {
+  background-color: darkgray;
+}
+
+.modal-body {
+  padding: 20px;
+  text-align: center;
+  background-color: coral;
+}
